@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400; }
+
+.homepage {
+  height: 77.5rem;
+  background-image: url(../img/homepage.jpg);
+  background-size: cover;
+  width: 100%;
+  color: #fff; }
+
+.container {
+  max-width: 110rem;
+  margin: auto;
+  overflow: hidden; }
+
+.homepage_bar {
+  height: 5rem;
+  width: 100%;
+  position: relative; }
+
+.logo {
+  float: left;
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 1rem; }
+
+.menu {
+  float: right; }
+
+.menu li {
+  float: left;
+  list-style: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 2rem;
+  padding-left: 3rem;
+  font-weight: bold; }
+
+.homepage_heading {
+  height: 80rem;
+  padding-top: 15rem;
+  padding-left: 5rem; }
+
+.homepage_main {
+  float: left; }
+
+.homepage_heading-small {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 53% 75%, 45% 99%, 35% 75%, 0% 75%);
+  background-color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 15px;
+  color: #333;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  font-weight: bold; }
+
+.homepage_heading-big {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.homepage_heading-big h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  letter-spacing: 6px; }
+
+.homepage_heading-big h4 {
+  font-size: 2rem;
+  letter-spacing: 7px; }
+
+.homepage_button {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
+
+.homepage_button a {
+  background-color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  margin-right: 2rem;
+  border-radius: 5px;
+  font-weight: bolder; }
+
+.homepage_socialmedia a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 2rem;
+  border-radius: 5px;
+  font-weight: bold; }
+
+.homepage_img img {
+  float: right;
+  margin-top: -50px;
+  margin-right: 70px; }
